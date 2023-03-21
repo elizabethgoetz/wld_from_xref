@@ -53,10 +53,8 @@
                         dist (* scale (sqrt (* 2 (* 1000 1000))))
                         pt4x (polar ins (+ (* pi 0.25) ang) dist)
                         pt4 (strcat (rtos (car pt4x) 2 10) "," (rtos (cadr pt4x) 2 10))         
-                        ;;; wldPath (strcat "G:\\Ulises_Python_Scripts\\worldfiles\\" xreFoldName "\\" xrefName ".wld")
-                        ;;; wldPath (strcat "E:\\Users\\ulgu3559\\Desktop\\WORLDTEST\\dwg\\"  xrefName ".wld")
-                        ;;; wldPath (strcat "E:\\Users\\ulgu3559\\Desktop\\WORLDTEST\\dwg_dos\\"  xrefName ".wld")
-                        wldPath (strcat "\\\\Kingtut\\gis\\gis_scratch\\"  xrefName ".wld") 
+                        ;;; wldPath (strcat "E:\\Users\\UserName\\Desktop\\WORLDTEST\\"  xrefName ".wld")
+                        wldPath (strcat "\\\\Server\\Folder\\gis_scratch\\"  xrefName ".wld") 
                         ;;; this line saves the world file to the buildings' folders inside  Meridian
                         ;;; it is assumed that the letter W has been already assigned to that location                 
                         ;;; wldPath (strcat "W:\\" xreFoldName "\\" xrefName ".wld")                     
@@ -75,4 +73,3 @@
   (princ)
   )
 (CreateWorldFile)
-
